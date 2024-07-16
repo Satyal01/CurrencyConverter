@@ -9,6 +9,7 @@ const InputBox = ({label, list , setCurrencies, setOption, defaultSelect}) => {
 
 
   return (
+    
     <div className='flex flex-col w-full gap-2 pt-2 px-2'>
       <label htmlFor="">{label}:</label>
       <select name="" id=""  value={defaultSelect} onChange={handleChnage} className='w-full h-10 bg-gray-200 rounded-lg  focus:outline-none focus:ring-2 focus:ring-indigo-700'> 
